@@ -1,0 +1,15 @@
+{
+    "require": {
+        "silex/silex": "1.0.*@dev",
+        "symfony/security": "~2.1",
+        "monolog/monolog": ">=1.0.0",
+        "gabordemooij/redbean": "dev-master",
+        "phpunit/phpunit": "3.7.*@dev",
+        "symfony/browser-kit":"2.1.2"
+    },
+    "autoload": {
+        "psr-0" : {
+            "App" : "src/"
+        }
+    }
+}
