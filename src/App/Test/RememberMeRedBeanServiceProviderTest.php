@@ -42,6 +42,7 @@ class RememberMeRedBeanServiceProviderTest extends WebTestCase
         $client->getCookiejar()->expire('MOCKSESSID');
 
         $client->request('get', '/');
+
         $this->assertEquals('AUTHENTICATED_REMEMBERED', $client->getResponse()->getContent());
 
         $client->request('get', '/logout');
@@ -56,6 +57,16 @@ class RememberMeRedBeanServiceProviderTest extends WebTestCase
 
         $app['debug'] = true;
         unset($app['exception_handler']);
+
+        // Monolog Logger Service
+
+        $app->register(new \Silex\Provider\MonologServiceProvider(),array(
+            'monolog.logfile' => BASE_DIR . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR . 'app.log',
+            'monolog.level' => \Monolog\Logger::DEBUG,
+            'monolog.name' => 'myapp'
+        ));
+
+
 
         $app->register(new SessionServiceProvider(), array(
             'session.test' => true,
@@ -79,6 +90,7 @@ class RememberMeRedBeanServiceProviderTest extends WebTestCase
         );
 
         $app->get('/', function () use ($app) {
+
             if ($app['security']->isGranted('IS_AUTHENTICATED_FULLY')) {
                 return 'AUTHENTICATED_FULLY';
             } elseif ($app['security']->isGranted('IS_AUTHENTICATED_REMEMBERED')) {

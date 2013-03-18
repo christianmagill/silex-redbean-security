@@ -410,51 +410,6 @@
         ]
     },
     {
-        "name": "gabordemooij/redbean",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/gabordemooij/redbean.git",
-            "reference": "7139fa62532854225e17792b0520f10e7d1c77bc"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/7139fa62532854225e17792b0520f10e7d1c77bc",
-            "reference": "7139fa62532854225e17792b0520f10e7d1c77bc",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.0"
-        },
-        "time": "2013-03-14 19:57:13",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-0": {
-                "RedBean_": ""
-            }
-        },
-        "notification-url": "http://packagist.org/downloads/",
-        "license": [
-            "BSD"
-        ],
-        "authors": [
-            {
-                "name": "Gabor de Mooij",
-                "email": "gabordemooij@gmail.com",
-                "homepage": "http://www.redbeanphp.com",
-                "role": "Developer"
-            }
-        ],
-        "description": "Easy ORM for PHP",
-        "homepage": "http://github.com/gabordemooij/redbean",
-        "keywords": [
-            "Object Relational Mapping",
-            "orm"
-        ]
-    },
-    {
         "name": "symfony/dom-crawler",
         "version": "v2.1.8",
         "version_normalized": "2.1.8.0",
@@ -1035,18 +990,63 @@
         ]
     },
     {
+        "name": "gabordemooij/redbean",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gabordemooij/redbean.git",
+            "reference": "254245d8fbcd2a0c0859936635902ab39b12f274"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/254245d8fbcd2a0c0859936635902ab39b12f274",
+            "reference": "254245d8fbcd2a0c0859936635902ab39b12f274",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2013-03-18 22:33:49",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "RedBean_": ""
+            }
+        },
+        "notification-url": "http://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "authors": [
+            {
+                "name": "Gabor de Mooij",
+                "email": "gabordemooij@gmail.com",
+                "homepage": "http://www.redbeanphp.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Easy ORM for PHP",
+        "homepage": "http://github.com/gabordemooij/redbean",
+        "keywords": [
+            "Object Relational Mapping",
+            "orm"
+        ]
+    },
+    {
         "name": "phpunit/phpunit",
         "version": "3.7.x-dev",
         "version_normalized": "3.7.9999999.9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/phpunit.git",
-            "reference": "2c67e52445416bb7c14046b432acd7eb79e4e612"
+            "reference": "407fa090c3da397ae56188750684124ec843f1bf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2c67e52445416bb7c14046b432acd7eb79e4e612",
-            "reference": "2c67e52445416bb7c14046b432acd7eb79e4e612",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/407fa090c3da397ae56188750684124ec843f1bf",
+            "reference": "407fa090c3da397ae56188750684124ec843f1bf",
             "shasum": ""
         },
         "require": {
@@ -1071,7 +1071,7 @@
             "ext-tokenizer": "*",
             "phpunit/php-invoker": ">=1.1.0,<1.2.0"
         },
-        "time": "2013-03-11 07:06:05",
+        "time": "2013-03-18 01:22:51",
         "bin": [
             "composer/bin/phpunit"
         ],

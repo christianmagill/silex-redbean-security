@@ -7,12 +7,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabordemooij/redbean.git",
-                "reference": "7139fa62532854225e17792b0520f10e7d1c77bc"
+                "reference": "254245d8fbcd2a0c0859936635902ab39b12f274"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/7139fa62532854225e17792b0520f10e7d1c77bc",
-                "reference": "7139fa62532854225e17792b0520f10e7d1c77bc",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/254245d8fbcd2a0c0859936635902ab39b12f274",
+                "reference": "254245d8fbcd2a0c0859936635902ab39b12f274",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,7 @@
                 "Object Relational Mapping",
                 "orm"
             ],
-            "time": "2013-03-14 19:57:13"
+            "time": "2013-03-18 22:33:49"
         },
         {
             "name": "monolog/monolog",
@@ -343,12 +343,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2c67e52445416bb7c14046b432acd7eb79e4e612"
+                "reference": "407fa090c3da397ae56188750684124ec843f1bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2c67e52445416bb7c14046b432acd7eb79e4e612",
-                "reference": "2c67e52445416bb7c14046b432acd7eb79e4e612",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/407fa090c3da397ae56188750684124ec843f1bf",
+                "reference": "407fa090c3da397ae56188750684124ec843f1bf",
                 "shasum": ""
             },
             "require": {
@@ -409,7 +409,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-03-11 07:06:05"
+            "time": "2013-03-18 01:22:51"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
