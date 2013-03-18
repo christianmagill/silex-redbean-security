@@ -24,7 +24,7 @@ namespace App\Model{
 
         public function supportsClass($class)
         {
-            return $class === 'UserSecurityWrapper';
+            return $class == 'App\Model\UserSecurityWrapper';
         }
 
     }
