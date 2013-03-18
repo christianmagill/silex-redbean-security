@@ -1,0 +1,7 @@
+[2013-03-18 23:06:36] myapp.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\wamp\www\silex-redbean-security\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 56 [] []
+[2013-03-18 23:06:36] myapp.INFO: < 302 [] []
+[2013-03-18 23:06:36] myapp.INFO: < 302 [] []
+[2013-03-18 23:06:36] myapp.INFO: > GET / [] []
+[2013-03-18 23:06:36] myapp.INFO: < 200 [] []
+[2013-03-18 23:06:36] myapp.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\wamp\www\silex-redbean-security\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 56 [] []
+[2013-03-18 23:06:36] myapp.INFO: < 302 [] []
